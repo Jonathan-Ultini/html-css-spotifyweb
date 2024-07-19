@@ -1,14 +1,52 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Spotify</title>
+  <title>Spotify Layout</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
+  <div class="container">
+    <aside class="sidebar">
+      <img src="img/logo.svg" alt="">
+      <nav>
+        <ul>
+          <li><i class="fa-solid fa-house"></i>Home</li>
+          <li>Cerca</li>
+          <li>La tua libreria</li>
+          <li>Crea Playlist</li>
+        </ul>
+      </nav>
+    </aside>
+    <div class="content-wrapper">
+      <header class="header">
+        <button>Effettua l'upgrade</button>
+      </header>
+      <main class="main">
+        <section class="recently-played">
+          <h2>Recently Played</h2>
+          <!-- Contenuto recentemente riprodotto -->
+        </section>
+        <section class="created-for-you">
+          <h2>Creato per te</h2>
+          <!-- Contenuto creato per te -->
+        </section>
+        <section class="popular-artists">
+          <h2>Artisti più popolari</h2>
+          <!-- Contenuto artisti popolari -->
+        </section>
+      </main>
+    </div>
+    <footer class="footer">
+      <div>Player Controls</div>
+    </footer>
+  </div>
 </body>
 
 </html>
