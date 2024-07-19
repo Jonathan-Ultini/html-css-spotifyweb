@@ -110,3 +110,10 @@ button {
   margin-right: 10px;
   font-size: 20px;
 }
+
+main nav ul {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
