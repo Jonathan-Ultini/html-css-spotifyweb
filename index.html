@@ -5,9 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Spotify Layout</title>
+  <link rel="icon" type="image/x-icon" href="img/spotify.ico">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    crossorigin="anonymous" referrerpolicy="no-referrer">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -17,9 +18,9 @@
       <img src="img/logo.svg" alt="">
       <nav>
         <ul>
-          <li><i class="fa-solid fa-house"></i>Home</li>
-          <li><i class="fa-solid fa-magnifying-glass"></i>Cerca</li>
-          <li><i class="fa-solid fa-bookmark"></i>La tua libreria</li>
+          <li><img src="img/home.svg" alt="">Home</li>
+          <li><img src="img/search.svg" alt="">Cerca</li>
+          <li><img src="img/libreria.svg" alt="">La tua libreria</li>
         </ul>
         <h3>PLAYLIST</h3>
         <ul>
@@ -34,9 +35,9 @@
         </ul>
       </nav>
       <div class="user-section">
-        <div><i class="fa-regular fa-circle-down"></i>Installa app</div>
+        <div><img src="img/download.svg" alt="">Installa app</div>
         <hr>
-        <div><i class="fa-solid fa-user"></i> John Doe</div>
+        <div><img src="img/profile.svg" alt=""> John Doe</div>
       </div>
     </aside>
 
@@ -60,16 +61,75 @@
         <section class="recently-played">
           <h2>Recently Played</h2>
           <!-- Contenuto recentemente riprodotto -->
+          <div class="row">
+            <div class="col">
+              <div class="card">
+                <img src="img/metal_lifting.jpg" alt="">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="img/stranger.jpeg" alt="">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="img/aquietplace.jpeg" alt="">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="img/split.jpeg" alt="">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="img/cure.jpeg" alt="">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="img/sinister.jpeg" alt="">
+              </div>
+            </div>
+          </div>
+
         </section>
 
         <section class="created-for-you">
           <h2>Creato per te</h2>
           <!-- Contenuto creato per te -->
+          <div class="row">
+            <div class="col">
+              <div class="card">
+                <img src="img/radar.jpeg" alt="">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="img/mixdaily.jpeg" alt="">
+              </div>
+            </div>
+          </div>
+
         </section>
 
         <section class="popular-artists">
           <h2>Artisti più popolari</h2>
           <!-- Contenuto artisti popolari -->
+          <div class="row">
+            <div class="col">
+              <div class="card">
+                <img src="img/youg.jpeg" alt="">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="img/einaudi.jpeg" alt="">
+              </div>
+            </div>
+          </div>
+
         </section>
 
       </main>
