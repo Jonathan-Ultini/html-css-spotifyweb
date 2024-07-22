@@ -255,6 +255,15 @@ footer div {
   margin: 0 5px;
 }
 
+.right-foot {
+  margin-right: 20px;
+}
+
+.left-foot {
+  margin-left: 20px;
+}
+
+
 footer button {
   background: none;
   border: none;
