@@ -25,10 +25,26 @@ html {
 /*#: SIDEBAR */
 
 .sidebar {
-  flex: 0 0 200px;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
   background-color: #000;
   color: white;
-  overflow-y: auto;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+nav {
+  flex: 1;
+}
+
+.user-section {
+  margin-top: auto;
+  padding: 10px 20px;
 }
 
 nav ul {
@@ -57,18 +73,6 @@ nav ul li img {
   align-items: center;
   text-align: center;
   margin-right: 10px;
-}
-
-.user-section {
-  position: absolute;
-  bottom: 100px;
-  left: 5px;
-  /* width: calc(100% - 40px); */
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  padding: 10px 0;
-  font-size: 16px;
 }
 
 .user-section hr {
@@ -172,6 +176,7 @@ main nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 
