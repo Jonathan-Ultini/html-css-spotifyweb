@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 
 <head>
   <meta charset="UTF-8">
@@ -13,51 +13,46 @@
 </head>
 
 <body>
-  <div class="container">
-    <aside class="sidebar">
-      <img src="img/logo.svg" alt="">
-      <nav>
-        <ul>
-          <li><img src="img/home.svg" alt="">Home</li>
-          <li><img src="img/search.svg" alt="">Cerca</li>
-          <li><img src="img/libreria.svg" alt="">La tua libreria</li>
-        </ul>
-        <h3>PLAYLIST</h3>
-        <ul>
-          <li><i class="fa-solid fa-plus"></i>Crea playlist</li>
-          <li>Nome playlist</li>
-          <li>Nome playlist</li>
-          <li>Nome playlist</li>
-          <li>Nome playlist</li>
-          <li>Nome playlist</li>
-          <li>Nome playlist</li>
-          <li>Nome playlist</li>
-        </ul>
-      </nav>
-      <div class="user-section">
-        <div class="install">
-          <img src="img/download.svg" alt="">
-          <span>Installa app</span>
-        </div>
-        <hr>
-        <div class="profile">
-          <img src="img/profile.svg" alt="">
-          <span>John Doe</span>
-        </div>
+  <div class="wrapper">
+    <div class="upper-content">
+      <div class="sidebar">
+        <aside>
+          <img src="img/logo.svg" alt="" class="logo">
+          <nav>
+            <ul>
+              <li><img src="img/home.svg" alt="">Home</li>
+              <li><img src="img/search.svg" alt="">Cerca</li>
+              <li><img src="img/libreria.svg" alt="">La tua libreria</li>
+            </ul>
+            <h3>PLAYLIST</h3>
+            <ul>
+              <li><i class="fa-solid fa-plus"></i>Crea playlist</li>
+              <li>Nome playlist</li>
+              <li>Nome playlist</li>
+              <li>Nome playlist</li>
+              <li>Nome playlist</li>
+              <li>Nome playlist</li>
+              <li>Nome playlist</li>
+              <li>Nome playlist</li>
+            </ul>
+          </nav>
+          <div class="user-section">
+            <div class="install">
+              <img src="img/download.svg" alt="">
+              <span>Installa app</span>
+            </div>
+            <hr>
+            <div class="profile">
+              <img src="img/profile.svg" alt="">
+              <span>John Doe</span>
+            </div>
+          </div>
+        </aside>
       </div>
-    </aside>
-
-
-    <header class="header">
-      <button class="btn">Effettua l'upgrade</button>
-    </header>
-
-
-    <!-- #: DA SPOSTARE HEADER O MODIFICARE -->
-    <div class="content-wrapper">
-
-
-      <main class="main">
+      <main>
+        <header>
+          <button class="btn">Effettua l'upgrade</button>
+        </header>
         <nav>
           <ul>
             <li>in evidenza</li>
@@ -145,38 +140,37 @@
 
       </main>
     </div>
-
-    <footer class="footer">
-      <div class="left-foot">
-        <img src="img/sinister.jpeg" alt="">
-        <div class="track-info">
-          <span>Sinister</span>
-          <span>Brano name</span>
-        </div>
-        <button><i class="fa-regular fa-heart"></i></button>
-        <button><i class="fa-regular fa-folder"></i></button>
-      </div>
-      <div class="main-foot">
-        <div class="buttons">
-          <button><i class="fa fa-random"></i></button>
-          <button><i class="fa fa-step-backward"></i></button>
-          <button><i class="fa fa-play"></i></button>
-          <button><i class="fa fa-step-forward"></i></button>
-          <button><i class="fa fa-repeat"></i></button>
-        </div>
-        <div class="progress-bar">
-          <span class="current-time">0:25</span>
-          <input class="range" type="range" value="0">
-          <span class="total-time">4:35</span>
-        </div>
-      </div>
-      <div class="right-foot">
-        <button><i class="fa fa-volume-down"></i></button>
-        <input type="range" class="volume" value="0">
-        <button><i class="fa fa-volume-up"></i></button>
-      </div>
-    </footer>
   </div>
+  <footer>
+    <div class="left-foot">
+      <img src="img/sinister.jpeg" alt="">
+      <div class="track-info">
+        <span>Sinister</span>
+        <span>Brano name</span>
+      </div>
+      <button><i class="fa-regular fa-heart"></i></button>
+      <button><i class="fa-regular fa-folder"></i></button>
+    </div>
+    <div class="main-foot">
+      <div class="buttons">
+        <button><i class="fa fa-random"></i></button>
+        <button><i class="fa fa-step-backward"></i></button>
+        <button><i class="fa fa-play"></i></button>
+        <button><i class="fa fa-step-forward"></i></button>
+        <button><i class="fa fa-repeat"></i></button>
+      </div>
+      <div class="progress-bar">
+        <span class="current-time">0:25</span>
+        <input class="range" type="range" value="0">
+        <span class="total-time">4:35</span>
+      </div>
+    </div>
+    <div class="right-foot">
+      <button><i class="fa fa-volume-down"></i></button>
+      <input type="range" class="volume" value="0">
+      <button><i class="fa fa-volume-up"></i></button>
+    </div>
+  </footer>
 </body>
 
 </html>
