@@ -1,4 +1,4 @@
-/*#: HOVER*/
+/*#: HOVER IMMAGINI*/
 
 /* Stili per il bottone play */
 .card .play-button {
@@ -21,3 +21,20 @@
 .card:hover .play-button {
   opacity: 1;
 }
+
+
+/*#: HOVER BOTTONE HEADER*/
+
+/* Effetto hover */
+header .btn:hover {
+  transform: scale(1.1);
+}
+
+/*##: HOVER NAV MAIN*/
+
+.page nav ul li:hover {
+  color: white;
+}
+
+
+/*#: HOVER SIDEBAR*/

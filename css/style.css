@@ -61,6 +61,7 @@ nav ul li {
   display: flex;
   align-items: center;
   margin: 20px 0;
+  cursor: pointer;
 }
 
 nav ul li img {
