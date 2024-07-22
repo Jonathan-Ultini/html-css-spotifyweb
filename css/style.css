@@ -43,6 +43,9 @@ aside {
   width: 80%;
 }
 
+.logo-small {
+  display: none;
+}
 
 .user-section {
   margin-top: auto;

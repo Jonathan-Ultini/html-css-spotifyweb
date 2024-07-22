@@ -36,4 +36,53 @@
   .row {
     flex-wrap: wrap;
   }
+
+  .sidebar {
+    min-width: 40px;
+    /* Riduci la larghezza della sidebar */
+    padding: 10px 5px;
+  }
+
+  .logo {
+    display: none;
+    /* Nascondi il logo grande */
+  }
+
+  .logo-small {
+    display: block;
+    /* Mostra il logo piccolo */
+    max-width: 100%;
+    height: auto;
+  }
+
+  nav ul li span {
+    display: none;
+    /* Nascondi il testo nei link della navbar */
+  }
+
+  .playlist-section {
+    display: none;
+  }
+
+  .user-section span,
+  .user-section hr {
+    display: none;
+    /* Nascondi il testo nella sezione utente */
+  }
+
+  nav ul li,
+  .user-section .install,
+  .user-section .profile {
+    justify-content: center;
+    /* Centra le icone dei link della navbar */
+  }
+
+  .user-section .install {
+    margin-bottom: 20px;
+    padding: 0 16px
+  }
+
+  .user-section .profile {
+    padding: 0 18px;
+  }
 }
