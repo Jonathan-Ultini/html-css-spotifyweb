@@ -197,6 +197,7 @@ main nav ul {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: relative;
 }
 
 .card img {
@@ -217,6 +218,11 @@ main nav ul {
   margin-top: 5px;
 }
 
+
+.recently-played,
+.created-for-you {
+  margin-bottom: 50px;
+}
 
 
 /*#: FOOTER */
@@ -327,4 +333,30 @@ input[type="range"]::-webkit-slider-thumb {
 
 .rad {
   border-radius: 50%;
+}
+
+
+
+/*#: HOVER*/
+
+/* Stili per il bottone play */
+.card .play-button {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5em;
+  color: white;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+/* Effetto hover */
+.card:hover img {
+  opacity: 0.5;
+}
+
+.card:hover .play-button {
+  opacity: 1;
 }
