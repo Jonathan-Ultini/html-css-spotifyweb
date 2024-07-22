@@ -30,6 +30,7 @@ html {
   width: 200px;
   background-color: #000;
   color: white;
+  padding: 10px 10px;
 }
 
 aside {
@@ -38,29 +39,41 @@ aside {
   flex: 1;
 }
 
-nav {
-  flex: 1;
+.logo {
+  width: 80%;
 }
+
 
 .user-section {
   margin-top: auto;
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
 }
 
 nav ul {
   list-style-type: none;
 }
 
+
 nav ul li {
   display: flex;
   align-items: center;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 nav ul li img {
   width: 20px;
   height: 20px;
-  margin-right: 10px;
+}
+
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #797C80;
+  font-weight: 800;
 }
 
 .fa-plus {
@@ -167,7 +180,8 @@ main nav ul {
 .col {
   flex-basis: calc(100% / 6);
   /* border: 2px dashed black; */
-  margin: 30px 0;
+  /* margin: 20px 20px; */
+  padding: 20px 20px;
 }
 
 .card {
@@ -179,9 +193,21 @@ main nav ul {
   flex-direction: column;
 }
 
-
 .card img {
-  width: 60%;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.card span:first-of-type {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.card span:nth-of-type(2) {
+  color: #797C80;
+  font-size: 14px;
+  margin-top: 5px;
 }
 
 
