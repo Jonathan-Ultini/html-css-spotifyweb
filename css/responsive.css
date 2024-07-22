@@ -1,0 +1,39 @@
+/* Media Query per dispositivi tablet */
+@media (max-width: 992px) {
+  .col {
+    flex: 1 1 calc(100% / 4);
+    /* 4 colonne per schermi tablet */
+    max-width: calc(100% / 4);
+  }
+
+  .row {
+    flex-wrap: wrap;
+  }
+}
+
+/* Media Query per dispositivi mobili */
+@media (max-width: 768px) {
+  .col {
+    flex: 1 1 calc(100% / 3);
+    /* 3 colonne per schermi più piccoli */
+    max-width: calc(100% / 3);
+  }
+
+  .row {
+    flex-wrap: wrap;
+  }
+}
+
+
+/* Media Query per schermi molto piccoli */
+@media (max-width: 580px) {
+  .col {
+    flex: 1 1 calc(100% / 2);
+    /* 2 colonne per schermi molto piccoli */
+    max-width: calc(100% / 2);
+  }
+
+  .row {
+    flex-wrap: wrap;
+  }
+}
