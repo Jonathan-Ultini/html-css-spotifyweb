@@ -22,6 +22,22 @@
   .row {
     flex-wrap: wrap;
   }
+
+  .left-foot .preferiti {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+  }
+
+  /* .main-foot .buttons,
+  .main-foot .progress-bar,
+  .right-foot {
+    width: 100%;
+  }
+
+  .main-foot .progress-bar .range {
+    width: 100%;
+  } */
 }
 
 
@@ -85,6 +101,8 @@
   .user-section .profile {
     padding: 0 18px;
   }
+
+
 }
 
 
