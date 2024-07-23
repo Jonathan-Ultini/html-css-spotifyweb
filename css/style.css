@@ -370,22 +370,24 @@ footer button {
 
 /*#: STILI*/
 
-/* TODO: da cambiare */
 input[type="range"] {
-  /* questa è per colore linea */
-  /* -webkit-appearance: none; */
-  /* background-color: rgb(255, 16, 16); */
-  height: 2px;
-  width: 250px;
+  -webkit-appearance: none;
+  appearance: none;
+  background: #6E6E6E;
   cursor: pointer;
+  width: 250px;
+  height: 2px;
 }
 
 input[type="range"]::-webkit-slider-thumb {
-  /* background-color: rgb(240, 54, 54); */
-  height: 4px;
-  opacity: 0.6;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: white;
+  height: 2px;
   width: 20%;
 }
+
+
 
 .rad {
   border-radius: 50%;
