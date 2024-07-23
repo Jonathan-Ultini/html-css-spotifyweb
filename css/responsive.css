@@ -86,3 +86,27 @@
     padding: 0 18px;
   }
 }
+
+
+/* #: SIDEBAR */
+
+@media (max-height: 900px) {
+  .playlist-container {
+    max-height: 300px;
+    /* Cambia l'altezza massima quando la finestra è più piccola */
+  }
+}
+
+@media (max-height: 740px) {
+  .playlist-container {
+    max-height: 200px;
+    /* Cambia l'altezza massima quando la finestra è più piccola */
+  }
+}
+
+@media (max-height: 630px) {
+  .playlist-container {
+    max-height: 100px;
+    /* Cambia l'altezza massima quando la finestra è più piccola */
+  }
+}

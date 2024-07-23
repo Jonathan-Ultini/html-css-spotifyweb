@@ -97,7 +97,7 @@ nav ul li img,
 }
 
 .playlist-container {
-  max-height: 200px;
+  max-height: 450px;
   overflow-y: auto;
 }
 
@@ -356,16 +356,16 @@ footer button {
 
 /* TODO: da cambiare */
 input[type="range"] {
+  /* questa è per colore linea */
   /* -webkit-appearance: none; */
-  background-color: grey;
+  /* background-color: rgb(255, 16, 16); */
   height: 2px;
   width: 250px;
   cursor: pointer;
 }
 
 input[type="range"]::-webkit-slider-thumb {
-  /* -webkit-appearance: none; */
-  background-color: white;
+  /* background-color: rgb(240, 54, 54); */
   height: 4px;
   opacity: 0.6;
   width: 20%;
