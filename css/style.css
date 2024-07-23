@@ -233,10 +233,16 @@ main nav ul {
   position: relative;
 }
 
+figure {
+  position: relative;
+}
+
+
 .card img {
   max-width: 100%;
   height: auto;
   transition: width 0.3s ease;
+  position: relative;
 }
 
 
@@ -373,5 +379,3 @@ input[type="range"]::-webkit-slider-thumb {
 
 
 /* TODO: fare linea verde con active e after ma vedere quando ci si clicca sopra
-
-TODO: vedere la lezione per il bottone play*/
