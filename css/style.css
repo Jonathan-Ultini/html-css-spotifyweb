@@ -21,7 +21,6 @@ html {
 }
 
 
-
 /*#: SIDEBAR */
 
 .sidebar {
@@ -39,6 +38,8 @@ aside {
   flex: 1;
 }
 
+/*#: LOGO */
+
 .logo {
   width: 80%;
 }
@@ -47,37 +48,68 @@ aside {
   display: none;
 }
 
+/*#: USER SECTION */
+
 .user-section {
   margin-top: auto;
   /* padding: 10px 20px; */
 }
 
-nav ul {
-  list-style-type: none;
+.user-section hr {
+  width: 100%;
+  border: 1px solid #333;
+  margin: 10px 0;
 }
 
+.user-section i {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+/*#: NAVIGATION */
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
 
 nav ul li img {
   width: 20px;
   height: 20px;
 }
 
+/*#: PLAYLIST */
 
-nav ul,
+.playlist-container {
+  max-height: 450px;
+  overflow-y: auto;
+}
+
 .playlist-container ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-nav ul li,
-.playlist-container ul li,
-.create-playlist {
+.playlist-container ul li {
   display: flex;
   align-items: center;
   margin: 10px 0;
-
 }
+
+.create-playlist {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+/*#: ICONS */
 
 nav ul li img,
 .playlist-container ul li i,
@@ -86,23 +118,6 @@ nav ul li img,
   height: 20px;
   margin-right: 10px;
 }
-
-.playlist-section {
-  margin-top: 20px;
-}
-
-.create-playlist {
-  cursor: pointer;
-  margin-bottom: 10px;
-}
-
-.playlist-container {
-  max-height: 450px;
-  overflow-y: auto;
-}
-
-
-
 
 .fa-plus {
   color: black;
@@ -116,16 +131,7 @@ nav ul li img,
   margin-right: 10px;
 }
 
-.user-section hr {
-  width: 100%;
-  border: 1px solid #333;
-  margin: 10px 0;
-}
-
-.user-section i {
-  margin-right: 10px;
-  font-size: 20px;
-}
+/*#: INSTALL & PROFILE */
 
 .install,
 .profile {
@@ -146,6 +152,13 @@ nav ul li img,
   height: 20px;
   width: 20px;
 }
+
+/*#: PLAYLIST SECTION */
+
+.playlist-section {
+  margin-top: 20px;
+}
+
 
 
 
@@ -198,6 +211,8 @@ main nav ul {
   margin-bottom: 30px;
 }
 
+/*#: PAGE */
+
 .page {
   display: flex;
   justify-content: center;
@@ -222,10 +237,12 @@ main nav ul {
   transition: color 0.3s ease;
 }
 
+/*#: ROW & COL */
+
 .row {
   display: flex;
-  /* flex-wrap: wrap; */
   flex-direction: row;
+  /* flex-wrap: wrap; */
   /* gap: 20px; */
   /* justify-content: center; */
 }
@@ -235,9 +252,11 @@ main nav ul {
   /* border: 2px dashed black; */
   /* margin: 20px 20px; */
   padding: 10px;
-  max-width: calc(100% /6);
+  max-width: calc(100% / 6);
   box-sizing: border-box;
 }
+
+/*#: CARD */
 
 .card {
   /* background-color: #f00; */
@@ -253,14 +272,12 @@ figure {
   position: relative;
 }
 
-
 .card img {
   max-width: 100%;
   height: auto;
   transition: width 0.3s ease;
   position: relative;
 }
-
 
 .card span:first-of-type {
   font-weight: bold;
@@ -273,11 +290,13 @@ figure {
   margin-top: 5px;
 }
 
+/*#: RECENTLY PLAYED & CREATED FOR YOU */
 
 .recently-played,
 .created-for-you {
   margin-bottom: 50px;
 }
+
 
 
 /*#: FOOTER */
@@ -296,6 +315,23 @@ footer div {
   align-items: center;
 }
 
+footer button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin: 0 5px;
+  font-size: 20px;
+}
+
+/*#: LEFT FOOT */
+
+.left-foot {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
 .left-foot img {
   width: 50px;
   height: 50px;
@@ -308,7 +344,6 @@ footer div {
   margin-right: 10px;
 }
 
-
 .left-foot .track-info span:first-child {
   font-weight: bold;
 }
@@ -317,16 +352,17 @@ footer div {
   margin-left: 10px;
 }
 
+/*#: MAIN FOOT */
+
 .main-foot {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex: 1;
 }
 
 .main-foot .buttons {
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
 
 .main-foot .progress-bar {
@@ -344,28 +380,76 @@ footer div {
   margin: 0 5px;
 }
 
+/*#: RIGHT FOOT */
+
+.right-foot {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
 .right-foot .volume {
   width: 100px;
   margin: 0 5px;
 }
 
-.right-foot {
-  margin-right: 20px;
+/*#: PROGRESS BAR */
+
+.progress-bar {
+  display: flex;
+  align-items: center;
 }
 
-.left-foot {
-  margin-left: 20px;
+.progress-bar .range-wrapper {
+  position: relative;
+  width: 250px;
+  height: 2px;
+  background: #6E6E6E;
+  margin: 0 10px;
 }
 
-
-footer button {
-  background: none;
-  border: none;
-  color: white;
+.range-background {
+  width: 100%;
+  height: 100%;
+  background: #6E6E6E;
   cursor: pointer;
-  margin: 0 5px;
-  font-size: 20px;
 }
+
+.range-foreground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: white;
+  cursor: pointer;
+}
+
+/*#: VOLUME */
+
+.volume-wrapper {
+  position: relative;
+  width: 100px;
+  height: 2px;
+  background: #6E6E6E;
+  margin: 0 10px;
+}
+
+.volume-background {
+  width: 100%;
+  height: 100%;
+  background: #6E6E6E;
+  cursor: pointer;
+}
+
+.volume-foreground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: white;
+  cursor: pointer;
+}
+
 
 
 /*#: STILI*/
@@ -388,12 +472,6 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 
-
 .rad {
   border-radius: 50%;
 }
-
-
-
-
-/* TODO: fare linea verde con active e after ma vedere quando ci si clicca sopra

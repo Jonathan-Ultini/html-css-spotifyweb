@@ -5,10 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Spotify Layout</title>
+  <!-- Icona del sito -->
   <link rel="icon" type="image/x-icon" href="img/spotify.ico">
+  <!-- Font Awesome per le icone -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous" referrerpolicy="no-referrer">
+  <!-- Fogli di stile CSS -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/hover.css">
   <link rel="stylesheet" href="css/responsive.css">
@@ -16,12 +19,16 @@
 
 <body>
   <div class="wrapper">
+    <!-- Contenuto principale -->
     <div class="upper-content">
+      <!-- Sidebar -->
       <div class="sidebar">
         <aside>
+          <!-- Logo principale e logo per dispositivi mobili -->
           <a href="#"><img src="img/logo.svg" alt="" class="logo"></a>
           <a href="#"><img src="img/logo-small.svg" alt="" class="logo-small"></a>
           <nav>
+            <!-- Navigazione principale -->
             <div class="homepage">
               <ul>
                 <li class="active"><img src="img/home.svg" alt=""><span>Home</span></li>
@@ -30,36 +37,16 @@
               </ul>
             </div>
 
+            <!-- Sezione playlist -->
             <div class="playlist-section">
               <h3>PLAYLIST</h3>
               <div class="create-playlist">
+                <!-- Pulsante per creare una nuova playlist -->
                 <i class="fa-solid fa-plus"></i>Crea playlist
               </div>
               <div class="playlist-container">
                 <ul>
-                  <li>Nome playlist</li>
-                  <li>Nome playlist</li>
-                  <li>Nome playlist</li>
-                  <li>Nome playlist</li>
-                  <li>Nome playlist</li>
-                  <li>Nome playlist</li>
-                  <li>Nome playlist</li>
-                  <li>Nome playlist</li>
-                  <li>Nome playlist</li>
-                  <li>Nome playlist</li>
-                  <li>Nome playlist</li>
-                  <li>Nome playlist</li>
-                  <li>Nome playlist</li>
-                  <li>Nome playlist</li>
-                  <li>Nome playlist</li>
-                  <li>Nome playlist</li>
-                  <li>Nome playlist</li>
-                  <li>Nome playlist</li>
-                  <li>Nome playlist</li>
-                  <li>Nome playlist</li>
-                  <li>Nome playlist</li>
-                  <li>Nome playlist</li>
-                  <li>Nome playlist</li>
+                  <!-- Elenco delle playlist (esempio) -->
                   <li>Nome playlist</li>
                   <li>Nome playlist</li>
                   <li>Nome playlist</li>
@@ -72,13 +59,16 @@
                 </ul>
               </div>
           </nav>
+          <!-- Sezione utente -->
           <div class="user-section">
             <div class="install">
+              <!-- Pulsante per installare l'app -->
               <img src="img/download.svg" alt="">
               <span>Installa app</span>
             </div>
             <hr>
             <div class="profile">
+              <!-- Sezione profilo utente -->
               <img src="img/profile.svg" alt="">
               <span>Jon Ult</span>
             </div>
@@ -86,13 +76,15 @@
         </aside>
       </div>
 
-
+      <!-- Contenuto principale -->
       <main>
         <header>
+          <!-- Pulsante per effettuare l'upgrade -->
           <button class="btn">Effettua l'upgrade</button>
         </header>
         <div class="page">
           <nav>
+            <!-- Navigazione della pagina -->
             <ul>
               <li class="active">in evidenza</li>
               <li>podcast</li>
@@ -104,6 +96,7 @@
           </nav>
         </div>
 
+        <!-- Sezione recentemente riprodotto -->
         <section class="recently-played">
           <h2>Recently Played</h2>
           <!-- Contenuto recentemente riprodotto -->
@@ -111,6 +104,7 @@
             <div class="col">
               <div class="card">
                 <figure>
+                  <!-- Immagine e pulsante di riproduzione -->
                   <img src="img/metal_lifting.jpg" alt="">
                   <i class="far fa-play-circle fa-3x play-button"></i>
                 </figure>
@@ -121,6 +115,7 @@
             <div class="col">
               <div class="card">
                 <figure>
+                  <!-- Immagine e pulsante di riproduzione -->
                   <img src="img/stranger.jpeg" alt="">
                   <i class="fa-regular fa-circle-play play-button"></i>
                 </figure>
@@ -169,9 +164,9 @@
               </div>
             </div>
           </div>
-
         </section>
 
+        <!-- Sezione creata per te -->
         <section class="created-for-you">
           <h2>Creato per Jon Ult</h2>
           <span>Più ascolti, più accurati saranno i suggerimenti.</span>
@@ -179,6 +174,7 @@
             <div class="col">
               <div class="card">
                 <figure>
+                  <!-- Immagine e pulsante di riproduzione -->
                   <img src="img/radar.jpeg" alt="">
                   <i class="fa-regular fa-circle-play play-button"></i>
                 </figure>
@@ -188,6 +184,7 @@
             <div class="col">
               <div class="card">
                 <figure>
+                  <!-- Immagine e pulsante di riproduzione -->
                   <img src="img/mixdaily.jpeg" alt="">
                   <i class="fa-regular fa-circle-play play-button"></i>
                 </figure>
@@ -195,9 +192,9 @@
               </div>
             </div>
           </div>
-
         </section>
 
+        <!-- Sezione artisti più popolari -->
         <section class="popular-artists">
           <h2>Artisti più popolari</h2>
           <span>Più ascolti, più accurati saranno i suggerimenti.</span>
@@ -205,6 +202,7 @@
             <div class="col">
               <div class="card">
                 <figure>
+                  <!-- Immagine e pulsante di riproduzione -->
                   <img src="img/youg.jpeg" alt="" class="rad">
                   <i class="fa-regular fa-circle-play play-button"></i>
                 </figure>
@@ -214,6 +212,7 @@
             <div class="col">
               <div class="card">
                 <figure>
+                  <!-- Immagine e pulsante di riproduzione -->
                   <img src="img/einaudi.jpeg" alt="" class="rad">
                   <i class="fa-regular fa-circle-play play-button"></i>
                 </figure>
@@ -221,26 +220,28 @@
               </div>
             </div>
           </div>
-
         </section>
-
       </main>
     </div>
   </div>
+  <!-- Footer -->
   <footer>
     <div class="left-foot">
+      <!-- Informazioni sul brano attualmente in riproduzione -->
       <img src="img/sinister.jpeg" alt="">
       <div class="track-info">
         <span>Sinister</span>
         <span>Brano name</span>
       </div>
       <div class="preferiti">
+        <!-- Pulsanti per aggiungere ai preferiti o alla cartella -->
         <button><i class="fa-regular fa-heart"></i></button>
         <button><i class="fa-regular fa-folder"></i></button>
       </div>
     </div>
     <div class="main-foot">
       <div class="buttons">
+        <!-- Controlli di riproduzione -->
         <button><i class="fa fa-random"></i></button>
         <button><i class="fa fa-step-backward"></i></button>
         <button><i class="fa-regular fa-circle-play"></i></button>
@@ -248,15 +249,22 @@
         <button><i class="fa fa-repeat"></i></button>
       </div>
       <div class="progress-bar">
+        <!-- Barra di avanzamento della traccia -->
         <span class="current-time">0:25</span>
-        <input class="range" type="range" value="0">
+        <div class="range-wrapper">
+          <div class="range-background"></div>
+          <div class="range-foreground" style="width: 20%;"></div>
+        </div>
         <span class="total-time">4:35</span>
       </div>
     </div>
     <div class="right-foot">
+      <!-- Controllo del volume -->
       <button><i class="fa fa-volume-down"></i></button>
-      <input type="range" class="volume" value="0">
-      <button><i class="fa fa-volume-up"></i></button>
+      <div class="volume-wrapper">
+        <div class="volume-background"></div>
+        <div class="volume-foreground" style="width: 20%;"></div>
+      </div>
     </div>
   </footer>
 </body>

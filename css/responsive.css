@@ -1,16 +1,3 @@
-/* Media Query per dispositivi tablet */
-@media (max-width: 992px) {
-  .col {
-    flex: 1 1 calc(100% / 4);
-    /* 4 colonne per schermi tablet */
-    max-width: calc(100% / 4);
-  }
-
-  .row {
-    flex-wrap: wrap;
-  }
-}
-
 /* Media Query per dispositivi mobili */
 @media (max-width: 768px) {
   .col {
@@ -29,7 +16,8 @@
     margin-right: 10px;
   }
 
-  /* .main-foot .buttons,
+  /* Commentato per future modifiche
+  .main-foot .buttons,
   .main-foot .progress-bar,
   .right-foot {
     width: 100%;
@@ -40,6 +28,18 @@
   } */
 }
 
+/* Media Query per dispositivi tablet */
+@media (max-width: 992px) {
+  .col {
+    flex: 1 1 calc(100% / 4);
+    /* 4 colonne per schermi tablet */
+    max-width: calc(100% / 4);
+  }
+
+  .row {
+    flex-wrap: wrap;
+  }
+}
 
 /* Media Query per schermi molto piccoli */
 @media (max-width: 580px) {
@@ -95,19 +95,17 @@
 
   .user-section .install {
     margin-bottom: 20px;
-    padding: 0 16px
+    padding: 0 16px;
   }
 
   .user-section .profile {
     padding: 0 18px;
   }
-
-
 }
-
 
 /* #: SIDEBAR */
 
+/* Media Query per altezza della finestra */
 @media (max-height: 900px) {
   .playlist-container {
     max-height: 300px;
