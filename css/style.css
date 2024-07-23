@@ -57,16 +57,48 @@ nav ul {
 }
 
 
-nav ul li {
-  display: flex;
-  align-items: center;
-  margin: 20px 0;
-  cursor: pointer;
-}
-
 nav ul li img {
   width: 20px;
   height: 20px;
+}
+
+
+nav ul,
+.playlist-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li,
+.playlist-container ul li,
+.create-playlist {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+
+}
+
+nav ul li img,
+.playlist-container ul li i,
+.create-playlist i {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.playlist-section {
+  margin-top: 20px;
+}
+
+.create-playlist {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.playlist-container {
+  max-height: 200px;
+  overflow-y: auto;
 }
 
 
@@ -316,6 +348,7 @@ footer button {
 
 /*#: STILI*/
 
+/* TODO: da cambiare */
 input[type="range"] {
   /* -webkit-appearance: none; */
   background-color: grey;
@@ -325,7 +358,7 @@ input[type="range"] {
 }
 
 input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none;
+  /* -webkit-appearance: none; */
   background-color: white;
   height: 4px;
   opacity: 0.6;
@@ -335,3 +368,10 @@ input[type="range"]::-webkit-slider-thumb {
 .rad {
   border-radius: 50%;
 }
+
+
+
+
+/* TODO: fare linea verde con active e after ma vedere quando ci si clicca sopra
+
+TODO: vedere la lezione per il bottone play*/

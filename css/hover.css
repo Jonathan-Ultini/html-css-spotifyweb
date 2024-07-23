@@ -16,6 +16,7 @@
 /* Effetto hover */
 .card:hover img {
   opacity: 0.5;
+  /* transform: scale(1.1); */
 }
 
 .card:hover .play-button {
